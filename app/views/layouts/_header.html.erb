@@ -1,13 +1,10 @@
-<header class="col-md-12 navbar navbar-fixed-top navbar-inverse">
+<header>
   <div class="container">
-    <%= link_to "sample app", '#', id: "logo", class: "col-md-5 col-sm-5 col-xs-4" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right col-md-7">
-        <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Help",   help_path %></li>
-        <li><%= link_to "Log in", '#' %></li>
-      </ul>
-    </nav>
+    <%= link_to t("header.logo"), root_path, id: "logo"%>
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to t("header.menu.home"), root_path %></li>
+      <li><%= link_to t("header.menu.help"), help_path %></li>
+      <li><%= link_to t("header.menu.login"), "#" %></li>
+    </ul>
   </div>
 </header>
-
