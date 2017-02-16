@@ -1,45 +1,18 @@
-<% provide(:title, "Home") %>
+<% provide :title, t("static_pages.home.title") %>
 <div class="container center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+  <h1><%= t "controllers.users.welcome" %></h1>
 
   <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+    <%= t "static_pages.home.page" %>
+    <a href="http://www.railstutorial.org/">
+      <%= t "static_pages.about.ror_tut" %>
+    </a>
+    <%= t "static_pages.home.sample" %>
   </h2>
 
-  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+  <%= link_to t("static_pages.home.signup"), signup_path,
+    class: "btn btn-lg btn-primary" %>
 </div>
 
-<div class="container center jumbotron">
-  <h1>Welcome to the Sample App</h1>
-
-  <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-</div>
-
-<div class="container center jumbotron">
-  <h1>Welcome to the Sample App</h1>
-
-  <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-</div>
-
-<div class="container center jumbotron">
-  <h1>Welcome to the Sample App</h1>
-
-  <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-</div>
-
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
+<%= link_to image_tag(t("static_pages.home.image"),
+  alt: t("static_pages.home.logo")), "http://rubyonrails.org/" %>

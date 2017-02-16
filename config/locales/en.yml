@@ -1,23 +1,76 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+
+  controllers:
+    users:
+      wellcome: "Welcome to the Sample App!"
+      fail: "Failed to create user, please check again"
+
+  helpers:
+    app:
+      ror: "Ruby on Rails"
+
+  header:
+    logo: "Sample App"
+    menu:
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      about: "About"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      logout: "Log out"
+
+  footer:
+    the: "The "
+    author: "Michael Hartl"
+    title: "Contact"
+
+  shared:
+    error_messages:
+      contains: "The form contains "
+      errors: " errors"
+
+  sessions:
+    new:
+      user: "New user? "
+    create:
+      login_ok: "Login success. Welcome!"
+      invalid: "Invalid email/password combination"
+
+  static_pages:
+    about:
+      title: "About"
+      ror_tut: " Ruby on Rails Tutorial"
+      is_a: " is a"
+      book: " book"
+      series: " screencast series"
+      teach: " to teach web development with"
+      sample_app: "This is the sample application for the tutorial. "
+      image: "rails.png"
+
+    contact:
+      title: "Contact"
+
+    help:
+      title: "Help"
+      get_help: "Get help on the Ruby on Rails Tutorial at the "
+      rails_help: " Rails Tutorial help page "
+      see_help: "To get help on this sample app, see the "
+
+    home:
+      title: "Home"
+      page: "This is the home page for the "
+      sample: " sample application."
+      signup: "Sign up now!"
+      logo: "Rails logo"
+
+  users:
+    new:
+      signup: "Sign up"
+      confirm: "Confirmation"
+      create: "Create your account"
+
+
+
