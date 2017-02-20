@@ -1,18 +1,18 @@
-<% provide :title, t("static_pages.home.title") %>
+<% provide :title, t(".title") %>
 <div class="container center jumbotron">
-  <h1><%= t "controllers.users.welcome" %></h1>
+  <h1><%= t ".welcome" %></h1>
 
   <h2>
-    <%= t "static_pages.home.page" %>
+    <%= t ".page" %>
     <a href="http://www.railstutorial.org/">
-      <%= t "static_pages.about.ror_tut" %>
+      <%= t ".ror_tut" %>
     </a>
-    <%= t "static_pages.home.sample" %>
+    <%= t ".sample" %>
   </h2>
 
-  <%= link_to t("static_pages.home.signup"), signup_path,
+  <%= link_to t(".signup"), signup_path,
     class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag(t("static_pages.home.image"),
-  alt: t("static_pages.home.logo")), "http://rubyonrails.org/" %>
+<%= link_to image_tag(t(".image"),
+  alt: t(".logo")), "http://rubyonrails.org/" %>

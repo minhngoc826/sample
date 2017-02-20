@@ -1,17 +1,10 @@
 en:
-
-  controllers:
-    users:
-      wellcome: "Welcome to the Sample App!"
-      fail: "Failed to create user, please check again"
-
-  helpers:
-    app:
+  layouts:
+    application:
       ror: "Ruby on Rails"
 
-  header:
-    logo: "Sample App"
-    menu:
+    header:
+      logo: "Sample App"
       users: "Users"
       account: "Account"
       profile: "Profile"
@@ -22,20 +15,25 @@ en:
       login: "Log in"
       logout: "Log out"
 
-  footer:
-    the: "The "
-    author: "Michael Hartl"
-    title: "Contact"
-    new: "News"
+    footer:
+      the: "The "
+      author: "Michael Hartl"
+      title: "Contact"
+      new: "News"
+      about: "About"
+      ror_tut: " Ruby on Rails Tutorial"
 
   shared:
     error_messages:
       contains: "The form contains "
       errors: " errors"
 
-  sessions:
+  session:
     new:
       user: "New user? "
+      login: "Log in"
+      signup: "Sign up"
+
     create:
       login_ok: "Login success. Welcome!"
       invalid: "Invalid email/password combination"
@@ -43,25 +41,41 @@ en:
   static_pages:
     about:
       title: "About"
+      the: "The "
+
       ror_tut: " Ruby on Rails Tutorial"
       is_a: " is a"
       book: " book"
+      and: " and"
       series: " screencast series"
       teach: " to teach web development with"
+      ror: " Ruby on Rails"
       sample_app: "This is the sample application for the tutorial. "
       image: "rails.png"
 
     contact:
       title: "Contact"
+      the: "The "
+      ror: "Ruby on Rails "
+      ror_tut: " Ruby on Rails Tutorial"
+      is_a: " is a"
+      book: " book"
+      and: " and"
+      series: " screencast series"
+      teach: " to teach web development with"
+      sample_app: "This is the sample application for the tutorial. "
 
     help:
       title: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the "
       rails_help: " Rails Tutorial help page "
       see_help: "To get help on this sample app, see the "
+      ror_tut: " Ruby on Rails Tutorial"
+      book: " book"
 
     home:
       title: "Home"
+      ror_tut: " Ruby on Rails Tutorial"
       page: "This is the home page for the "
       sample: " sample application."
       signup: "Sign up now!"
@@ -70,5 +84,12 @@ en:
   users:
     new:
       signup: "Sign up"
-      confirm: "Confirmation"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirmation Password"
       create: "Create your account"
+
+    create:
+      wellcome: "Welcome to the Sample App!"
+      signup_failled: "Failed to create user, please check again"
