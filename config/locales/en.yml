@@ -33,6 +33,7 @@ en:
       user: "New user? "
       login: "Log in"
       signup: "Sign up"
+      remember_me: "Remember me on this computer"
 
     create:
       login_ok: "Login success. Welcome!"
