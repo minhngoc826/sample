@@ -23,6 +23,15 @@ en:
       about: "About"
       ror_tut: " Ruby on Rails Tutorial"
 
+    form:
+      login: "Log in"
+      signup: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirmation Password"
+      submit: "Submit your request"
+
   shared:
     error_messages:
       contains: "The form contains "
@@ -85,12 +94,24 @@ en:
   users:
     new:
       signup: "Sign up"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirm_password: "Confirmation Password"
       create: "Create your account"
 
     create:
       wellcome: "Welcome to the Sample App!"
       signup_failled: "Failed to create user, please check again"
+
+    edit:
+      save: "Save your account"
+      update: "Update Acount"
+      update_user: "Update your Profile"
+      change: "Change"
+      login: "Please log in before."
+
+    show:
+      login: "Please log in before."
+
+    index:
+      all_user: "All users"
+      login: "Please log in before."
+
+

@@ -22,15 +22,20 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update_attributes :remember_digest, User.digest(remember_token)
+    update_attributes remember_digest: User.digest(remember_token)
   end
 
   def authenticate? remember_token
-    BCrypt::Password.new(:remember_digest).is_password? remember_token
+    return false if remember_digest.nil?
+    BCrypt::Password.new(remember_digest).is_password? remember_token
   end
 
   def forget
-    update_attributes :remember_digest, nil
+    update_attributes remember_digest: nil
+  end
+
+  def current_user? current_user
+    self == current_user
   end
 
 end
