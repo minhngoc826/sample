@@ -1,0 +1,6 @@
+<%= t ".hi" %><%= @user.name %>
+
+<%= t ".click_active" %>
+
+<%= link_to t(".active"), edit_account_activation_url(@user.activation_token,
+  email: @user.email) %>

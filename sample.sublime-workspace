@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"ro",
+				"ro\tro-html"
+			],
+			[
+				"re",
+				"reno\tERB Render Tag"
+			],
+			[
+				"ren",
+				"ren\tERB Render Tag"
+			],
+			[
+				"chek",
+				"check_mail"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"att",
+				"attribute"
+			],
+			[
+				"account",
+				"account_activation"
+			],
+			[
+				"ac",
+				"action_mailer"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"acti",
+				"activation_token〔function〕"
+			],
+			[
+				"a",
+				"activation_token〔function〕"
+			],
+			[
+				"crea",
+				"create_activation_digest"
+			],
+			[
+				"down",
+				"downcase_email"
+			],
+			[
+				"fulm",
+				"fulms\tfull_message"
+			],
+			[
+				"fulms",
+				"full_messages"
+			],
+			[
+				"cl",
+				"cla\tclass .. < ParentClass .. initialize .. end"
+			],
+			[
+				"rem",
+				"remember"
+			],
+			[
+				"new",
+				"new_token〔function〕"
+			],
+			[
+				"sel",
+				"self〔variable〕"
+			],
+			[
 				"ap",
 				"application"
 			],
@@ -22,10 +98,6 @@
 			[
 				"di",
 				"digest"
-			],
-			[
-				"rem",
-				"remember_token"
 			],
 			[
 				"E",
@@ -48,16 +120,8 @@
 				"lic\tlink_to (controller)"
 			],
 			[
-				"me",
-				"menu"
-			],
-			[
 				"bu",
 				"bs3-button\tbs3-button"
-			],
-			[
-				"ren",
-				"reno\tERB Render Tag"
 			],
 			[
 				"cla",
@@ -107,6 +171,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/locales/en.yml",
+			"settings":
+			{
+				"buffer_size": 3328,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/password_resets/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 64,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -115,12 +197,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 346.0,
 		"last_filter": "in",
 		"selected_items":
 		[
 			[
 				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
 				"Package Control: Install Package"
 			],
 			[
@@ -136,7 +226,7 @@
 				"Set Syntax: HTML (Rails)"
 			]
 		],
-		"width": 450.0
+		"width": 425.0
 	},
 	"console":
 	{
@@ -159,13 +249,50 @@
 	"expanded_folders":
 	[
 		"/home/ngocs2s/Desktop/sample",
-		"/home/ngocs2s/Desktop/sample/db"
+		"/home/ngocs2s/Desktop/sample/app",
+		"/home/ngocs2s/Desktop/sample/app/assets",
+		"/home/ngocs2s/Desktop/sample/app/channels/application_cable",
+		"/home/ngocs2s/Desktop/sample/app/controllers",
+		"/home/ngocs2s/Desktop/sample/app/controllers/concerns",
+		"/home/ngocs2s/Desktop/sample/app/jobs",
+		"/home/ngocs2s/Desktop/sample/app/models",
+		"/home/ngocs2s/Desktop/sample/app/models/concerns",
+		"/home/ngocs2s/Desktop/sample/app/views",
+		"/home/ngocs2s/Desktop/sample/app/views/account_activations",
+		"/home/ngocs2s/Desktop/sample/config",
+		"/home/ngocs2s/Desktop/sample/config/locales",
+		"/home/ngocs2s/Desktop/sample/db",
+		"/home/ngocs2s/Desktop/sample/test",
+		"/home/ngocs2s/Desktop/sample/test/mailers/previews"
 	],
 	"file_history":
 	[
-		"/home/ngocs2s/Desktop/sample/sample.sublime-project",
-		"/home/ngocs2s/.config/sublime-text-3/Packages/ExpandTabsOnSave/ExpandTabsOnSave.py",
+		"/home/ngocs2s/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/ngocs2s/Desktop/sample/app/views/session/new.html.erb",
+		"/home/ngocs2s/Desktop/sample/app/views/user_mailer/account_activation.text.erb",
+		"/home/ngocs2s/Desktop/sample/config/routes.rb",
+		"/home/ngocs2s/Desktop/sample/app/views/user_mailer/account_activation.html.erb",
+		"/home/ngocs2s/Desktop/sample/config/environments/development.rb",
+		"/home/ngocs2s/Desktop/sample/app/mailers/user_mailer.rb",
+		"/home/ngocs2s/Desktop/sample/test/mailers/previews/user_mailer_preview.rb",
+		"/home/ngocs2s/Desktop/sample/app/controllers/account_activations_controller.rb",
+		"/home/ngocs2s/Desktop/sample/config/initializers/session_store.rb",
 		"/home/ngocs2s/Desktop/sample/app/models/user.rb",
+		"/home/ngocs2s/Desktop/sample/app/controllers/session_controller.rb",
+		"/home/ngocs2s/Desktop/sample/app/helpers/session_helper.rb",
+		"/home/ngocs2s/Desktop/sample/app/controllers/users_controller.rb",
+		"/home/ngocs2s/Desktop/sample/config/locales/en.yml",
+		"/home/ngocs2s/Desktop/sample/app/mailers/application_mailer.rb",
+		"/home/ngocs2s/Desktop/sample/db/seeds.rb",
+		"/home/ngocs2s/Desktop/sample/app/controllers/static_pages_controller.rb",
+		"/home/ngocs2s/Desktop/sample/app/assets/stylesheets/account_activations.scss",
+		"/home/ngocs2s/Desktop/sample/config/environments/production.rb",
+		"/home/ngocs2s/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/ngocs2s/Desktop/sample/sample.sublime-project",
+		"/home/ngocs2s/.config/sublime-text-3/Packages/User/full_message.sublime-snippet",
+		"/home/ngocs2s/Desktop/sample/app/views/users/index.html.erb",
+		"/home/ngocs2s/Desktop/sample/app/views/users/show.html.erb",
+		"/home/ngocs2s/.config/sublime-text-3/Packages/ExpandTabsOnSave/ExpandTabsOnSave.py",
 		"/home/ngocs2s/Desktop/sample/app/models/mic.rb",
 		"/home/ngocs2s/Desktop/sample/app/models/application_record.rb",
 		"/home/ngocs2s/Desktop/sample/app/assets/stylesheets/users.scss",
@@ -173,17 +300,10 @@
 		"/home/ngocs2s/Desktop/sample/app/assets/stylesheets/application.css",
 		"/home/ngocs2s/Desktop/sample/app/helpers/users_helper.rb",
 		"/home/ngocs2s/Desktop/sample/app/helpers/static_pages_helper.rb",
-		"/home/ngocs2s/Desktop/sample/app/helpers/session_helper.rb",
 		"/home/ngocs2s/Desktop/sample/app/helpers/application_helper.rb",
-		"/home/ngocs2s/Desktop/sample/app/controllers/users_controller.rb",
-		"/home/ngocs2s/Desktop/sample/app/controllers/static_pages_controller.rb",
-		"/home/ngocs2s/Desktop/sample/app/controllers/session_controller.rb",
-		"/home/ngocs2s/Desktop/sample/config/locales/en.yml",
 		"/home/ngocs2s/Desktop/sample/app/views/layouts/_footer.html.erb",
 		"/home/ngocs2s/Desktop/sample/app/views/layouts/_header.html.erb",
-		"/home/ngocs2s/Desktop/sample/app/views/session/new.html.erb",
 		"/home/ngocs2s/Desktop/sample/app/views/shared/_error_messages.html.erb",
-		"/home/ngocs2s/Desktop/sample/app/views/users/show.html.erb",
 		"/home/ngocs2s/Desktop/sample/app/views/users/new.html.erb",
 		"/home/ngocs2s/.config/sublime-text-3/Packages/User/ttt.sublime-snippet",
 		"/home/ngocs2s/.config/sublime-text-3/Packages/User/tt.sublime-snippet",
@@ -197,8 +317,6 @@
 		"/home/ngocs2s/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
 		"/home/ngocs2s/.config/sublime-text-3/Packages/User/Git.sublime-settings",
 		"/home/ngocs2s/Desktop/sample/Gemfile",
-		"/home/ngocs2s/Desktop/sample/config/routes.rb",
-		"/home/ngocs2s/Desktop/sample/app/mailers/application_mailer.rb",
 		"/home/ngocs2s/Downloads/sample-basic-login/app/controllers/users_controller.rb",
 		"/home/ngocs2s/Desktop/sample/test/controllers/sessions_controller_test.rb",
 		"/home/ngocs2s/Desktop/sample/test/controllers/static_pages_controller_test.rb",
@@ -276,21 +394,7 @@
 		"/home/ngocs2s/.config/sublime-text-3/Packages/User/form-login-username.sublime-snippet",
 		"/home/ngocs2s/.config/sublime-text-3/Packages/User/form-login-email.sublime-snippet",
 		"/home/ngocs2s/.config/sublime-text-3/Packages/User/form-signup.sublime-snippet",
-		"/home/ngocs2s/.config/sublime-text-3/Packages/User/classs.sublime-snippet",
-		"/home/ngocs2s/.config/sublime-text-3/Packages/User/form-for.sublime-snippet",
-		"/home/ngocs2s/Desktop/sam/app/helpers/application_helper.rb",
-		"/home/ngocs2s/Desktop/sam/app/assets/stylesheets/custom.scss",
-		"/home/ngocs2s/Desktop/sam/app/models/user.rb",
-		"/home/ngocs2s/Desktop/sam/db/seeds.rb",
-		"/home/ngocs2s/Desktop/sam/config/initializers/new_framework_defaults.rb",
-		"/home/ngocs2s/Desktop/sam/config/initializers/backtrace_silencers.rb",
-		"/home/ngocs2s/Desktop/sam/config/spring.rb",
-		"/home/ngocs2s/Desktop/sam/config/puma.rb",
-		"/home/ngocs2s/Desktop/sam/bin/spring",
-		"/home/ngocs2s/Desktop/sam/tmp/cache/assets/sprockets/v3.0/1H/1Hu-G8zUP4qlDvxwSfyyl2CwGM9Ua8SD1a4DBZRkzlU.cache",
-		"/home/ngocs2s/Desktop/sam/tmp/cache/assets/sprockets/v3.0/Ia/Ialj7MXgdb1DCZDag5YjOn8ctQkCDyurYOyiPK5wQ6Y.cache",
-		"/home/ngocs2s/Desktop/sam/tmp/cache/assets/sprockets/v3.0/L0/L0ejdIqdT2svNzQ6Fwo6qHh6mYugd39qcXhIyz17Va4.cache",
-		"/home/ngocs2s/Desktop/sam/tmp/cache/assets/sprockets/v3.0/T6/T6UXJsJvR7lFXKQx7u0qzt9-QklDOrUWIcGskFknqYc.cache"
+		"/home/ngocs2s/.config/sublime-text-3/Packages/User/classs.sublime-snippet"
 	],
 	"find":
 	{
@@ -315,6 +419,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"email",
+			"'",
+			"this",
 			"\"header.menu",
 			"\"users.new",
 			"\"static_pages.about",
@@ -347,8 +455,231 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/locales/en.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										940,
+										941
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										918,
+										919
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 449.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/password_resets/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -401,6 +732,30 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"app/views/password_resets/new.html.erb"
+			],
+			[
+				"en",
+				"config/locales/en.yml"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"us",
+				"app/models/user.rb"
+			],
+			[
+				"see",
+				"db/seeds.rb"
+			],
+			[
 				"",
 				"sample/app/controllers/application_controller.rb"
 			],
@@ -437,7 +792,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 196.0,
+	"side_bar_width": 277.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
