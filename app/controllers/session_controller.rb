@@ -25,4 +25,5 @@ class SessionController < ApplicationController
     log_out if logged_in?
     redirect_to root_path
   end
+
 end

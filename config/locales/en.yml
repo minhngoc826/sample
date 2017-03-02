@@ -37,6 +37,14 @@ en:
       contains: "The form contains "
       errors: " errors"
 
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+
+    user_info:
+      view: "View my profile"
+      micropost: "micropost"
+
   session:
     new:
       user: "New user? "
@@ -93,6 +101,7 @@ en:
       sample: " sample application."
       signup: "Sign up now!"
       logo: "Rails logo"
+      feed: "Micropost Feed"
 
   users:
     new:
@@ -104,7 +113,6 @@ en:
       signup_failled: "Failed to create user, please check again"
       check_mail: "Please check your email to activate your account."
 
-
     edit:
       save: "Save your account"
       update: "Update Acount"
@@ -114,10 +122,11 @@ en:
 
     show:
       login: "Please log in before."
+      microposts: "Microposts "
 
     index:
       all_user: "All users"
-      login: "Please log in before."
+      log-in: "Please log in before."
 
     user:
       sure: "Are you sure?"
@@ -159,6 +168,19 @@ en:
     create:
       sent_email: "Email sent with password reset instructions"
       not_found: "Email address not found"
+
+  microposts:
+    micropost:
+      posted: "Posted "
+      ago: " ago."
+      sure: "You sure?"
+      delete_mic: "Delete post"
+
+    create:
+      created: "Micropost created!"
+
+    destroy:
+      deleted: "Micropost deleted"
 
 
 
