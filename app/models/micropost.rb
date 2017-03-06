@@ -6,7 +6,6 @@ class Micropost < ApplicationRecord
   validate :picture_size
   mount_uploader :picture, PictureUploader
 
-
   private
     def picture_size
       if picture.size > 5.megabytes

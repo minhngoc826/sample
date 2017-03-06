@@ -45,6 +45,10 @@ en:
       view: "View my profile"
       micropost: "micropost"
 
+    stats:
+      follower: " followers"
+      following: "following"
+
   session:
     new:
       user: "New user? "
@@ -131,6 +135,26 @@ en:
     user:
       sure: "Are you sure?"
       delete: "Delete User"
+
+    follow:
+      follow: "Follow"
+
+    follow_form:
+      follow: "follow"
+      unfollow: "unfollow"
+
+    unfollow:
+      unfollow: "unfollow"
+
+    following:
+      following: "Following"
+
+    followers:
+      followers: "Followers"
+
+    show_follow:
+      profile: "View my profile"
+      microposts: "Microposts: "
 
   user_mailer:
     account_activation:
